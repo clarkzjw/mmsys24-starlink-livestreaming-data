@@ -50,7 +50,6 @@ def plot_3():
             plt.ylabel("RTT (ms)", fontsize=fontsize)
             plt.tight_layout()
             plt.savefig("../figures/latency/{}.png".format(output))
-            plt.savefig("../figures/latency/{}.eps".format(output))
             plt.clf()
             plt.close()
     

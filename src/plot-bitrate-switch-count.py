@@ -99,7 +99,6 @@ def bitrate_switch_by_target_latency(prefix: str):
         plt.ylim(0, 160)
         plt.legend(loc="best")
         plt.tight_layout()
-        plt.savefig("figures/streaming/bitrate_switch_" + TITLE[g] + ".eps")
         plt.savefig("figures/streaming/bitrate_switch_" + TITLE[g] + ".png")
         plt.clf()
         plt.close()

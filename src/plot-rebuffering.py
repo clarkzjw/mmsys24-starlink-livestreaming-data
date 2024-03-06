@@ -103,7 +103,6 @@ def stall_duration_by_target_latency(prefix: str):
         
         plt.legend(loc="best")
         plt.tight_layout()
-        plt.savefig("figures/streaming/average_rebuffering_time_percentage_" + TITLE[g] + ".eps")
         plt.savefig("figures/streaming/average_rebuffering_time_percentage_" + TITLE[g] + ".png")
         plt.clf()
         plt.close()

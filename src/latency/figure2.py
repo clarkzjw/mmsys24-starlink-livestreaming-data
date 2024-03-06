@@ -40,7 +40,6 @@ def plot_2():
     plt.tight_layout()
     plt.legend(labelcolor='linecolor', loc="best")
     plt.savefig("../figures/latency/ping-cdf.png")
-    plt.savefig("../figures/latency/ping-cdf.eps")
     plt.clf()
     plt.close()
 

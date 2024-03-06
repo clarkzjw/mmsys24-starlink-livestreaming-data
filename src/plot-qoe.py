@@ -88,7 +88,6 @@ def average_qoe_by_target_latency(prefix: str):
 
     plt.legend(loc="best")
     plt.tight_layout()
-    plt.savefig("figures/streaming/average_reward" + ".eps")
     plt.savefig("figures/streaming/average_reward" + ".png")
     plt.clf()
     plt.close()

@@ -104,7 +104,6 @@ def average_live_latency_by_target_latency(prefix: str):
         plt.ylim(3, 7)
         plt.legend(loc="best")
         plt.tight_layout()
-        plt.savefig("figures/streaming/average_live_latency_" + TITLE[g] + ".eps")
         plt.savefig("figures/streaming/average_live_latency_" + TITLE[g] + ".png")
         plt.clf()
         plt.close()
