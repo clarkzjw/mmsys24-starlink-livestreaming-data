@@ -7,7 +7,7 @@ on:
 
 env:
   IMAGE: ${{ secrets.DOCKER_REGISTRY }}/clarkzjw/mmsys24-reproducibility
-  TAG: master
+  TAG: latest
 
 jobs:
   runner:
@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       -
-        name: Build and push Runner
+        name: Build and push
         uses: docker/build-push-action@v4
         with:
           context: .
@@ -38,4 +38,3 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: ${{ env.IMAGE }}:${{ env.TAG }}
-  
