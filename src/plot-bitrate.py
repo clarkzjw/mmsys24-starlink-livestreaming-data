@@ -101,8 +101,8 @@ def average_bitrate_by_target_latency(prefix: str):
 
         plt.legend(loc="best")
         plt.tight_layout()
-        plt.savefig("figures/average_bitrate_" + TITLE[g] + ".eps")
-        plt.savefig("figures/average_bitrate_" + TITLE[g] + ".png")
+        plt.savefig("figures/streaming/average_bitrate_" + TITLE[g] + ".eps")
+        plt.savefig("figures/streaming/average_bitrate_" + TITLE[g] + ".png")
         plt.clf()
         plt.close()
 
@@ -153,8 +153,8 @@ def std_bitrate_by_target_latency(prefix: str):
         
         plt.legend(loc="best")
         plt.tight_layout()
-        plt.savefig("figures/std_bitrate_" + TITLE[g] + ".eps")
-        plt.savefig("figures/std_bitrate_" + TITLE[g] + ".png")
+        plt.savefig("figures/streaming/std_bitrate_" + TITLE[g] + ".eps")
+        plt.savefig("figures/streaming/std_bitrate_" + TITLE[g] + ".png")
         plt.clf()
         plt.close()
 

@@ -49,8 +49,8 @@ def plot_3():
             plt.xlabel("Seconds", fontsize=fontsize)
             plt.ylabel("RTT (ms)", fontsize=fontsize)
             plt.tight_layout()
-            plt.savefig("{}.png".format(output))
-            plt.savefig("{}.eps".format(output))
+            plt.savefig("../figures/latency/{}.png".format(output))
+            plt.savefig("../figures/latency/{}.eps".format(output))
             plt.clf()
             plt.close()
     

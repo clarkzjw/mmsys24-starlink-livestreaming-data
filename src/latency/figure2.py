@@ -39,8 +39,8 @@ def plot_2():
     plt.xlabel("RTT (ms)")
     plt.tight_layout()
     plt.legend(labelcolor='linecolor', loc="best")
-    plt.savefig("ping-cdf.png")
-    plt.savefig("ping-cdf.eps")
+    plt.savefig("../figures/latency/ping-cdf.png")
+    plt.savefig("../figures/latency/ping-cdf.eps")
     plt.clf()
     plt.close()
 
