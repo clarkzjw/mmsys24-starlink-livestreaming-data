@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "data"
+name = "mmsys24-starlink-livestreaming-data"
 version = "0.1.0"
 description = ""
 authors = ["clarkzjw <clarkzjw@uvic.ca>"]
